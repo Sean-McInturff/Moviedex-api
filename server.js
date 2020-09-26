@@ -46,7 +46,7 @@ function handleGetMovies(req, res) {
     res.json(response)
 }
 
-app.get('/movies', handleGetMovies)
+app.get('/movie', handleGetMovies)
 
 const PORT = 8000
 
